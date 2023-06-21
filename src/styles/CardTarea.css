@@ -1,0 +1,28 @@
+.card{
+    display: inline-block;
+    width: 230px;
+    height: 250px;
+    margin: 20px;
+    padding: 12px;
+
+}
+.red {
+    background-color:  #EC7063;
+}
+.normal{
+    background-color: #FFFFCC;
+}
+.card:nth-child(2n+1){
+    transform: rotate(4deg);
+}
+.card:nth-child(2n){
+    transform: rotate(-4deg);
+}
+.card-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delete:hover{
+    cursor: pointer;
+}
